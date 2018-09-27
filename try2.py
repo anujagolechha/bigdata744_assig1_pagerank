@@ -13,7 +13,7 @@ def extractIDs(x):
 
 def getValidIDs(x):
     if len(x) == 2:
-        return x[0].isdigit() and x[1].isdigit()
+        return True#return x[0].isdigit() and x[1].isdigit()
     return False
 
 def calc(page2list, rank):
